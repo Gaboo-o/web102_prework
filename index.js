@@ -55,7 +55,8 @@ function addGamesToPage(games) {
 
 // call the function we just defined using the correct variable
 // later, we'll call this function using a different list of games
-addGamesToPage(GAMES_JSON);
+//addGamesToPage(GAMES_JSON);
+filterFundedOnly();
 
 /*************************************************************************************
  * Challenge 4: Create the summary statistics at the top of the page displaying the
